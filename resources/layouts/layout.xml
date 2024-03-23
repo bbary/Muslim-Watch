@@ -1,0 +1,23 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="Sunrise" x="132" y="13" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
+    <label id="Sunset" x="145" y="13" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="NextSalat" x="217" y="35" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="NextSalatTime" x="225" y="62" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
+    
+    <label id="Ism" x="140" y="67" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+    
+    <label id="HijriDateDay" x="60" y="56" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_ORANGE" />
+    <label id="HijriDateMonth" x="85" y="75" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_GREEN" />
+    
+    
+    <label id="TotalSwim" x="75" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TotalBike" x="160" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TotalRun" x="245" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+
+    <label id="TotalSwim_lastweek" x="75" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+    <label id="TotalBike_lastweek" x="160" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+    <label id="TotalRun_lastweek" x="243" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+
+</layout>

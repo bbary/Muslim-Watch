@@ -1,0 +1,78 @@
+<resources>
+
+    <properties>
+        <property id="api_url" type="string"></property>
+        <property id="duhr_time" type="string"></property>
+        <property id="asr_time" type="string"></property>
+        <property id="icha_time" type="string"></property>
+        <property id="adjust_hijri" type="number">-1</property>
+        <property id="time_todo_color" type="number">0x00aaff</property>
+        <property id="time_done_color" type="number">0xaa0000</property>
+        <property id="swim_goal" type="number">6</property>
+        <property id="bike_goal" type="number">100</property>
+        <property id="run_goal" type="number">50</property>
+
+    </properties>
+
+    <settings>
+        <setting propertyKey="@Properties.api_url" title="API URL">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.duhr_time" title="DUHR FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.asr_time" title="ASR FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>      
+        <setting propertyKey="@Properties.icha_time" title="ICHA FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>                    
+
+        <setting propertyKey="@Properties.adjust_hijri" title="HIJRI ADJUST">
+            <settingConfig type="numeric" />
+        </setting>
+        <setting propertyKey="@Properties.time_todo_color" title="TIME TODO COLOR">
+          <settingConfig  type="list">
+            <listEntry value="255">lt_blue</listEntry>
+            <listEntry value="0x00aa00">DK_green</listEntry>
+            <listEntry value="0x00aaff">blue</listEntry>
+            <listEntry value="0xffaa00">yellow</listEntry>
+            <listEntry value="0xaa0000">bordeaux</listEntry>
+            <listEntry value="0x550000">marron</listEntry>
+            <listEntry value="170">violet</listEntry>        
+            <listEntry value="0xFF0000">red</listEntry>
+            <listEntry value="0x00FFFF">Turquoise</listEntry>
+            <listEntry value="0xFF5500">Orange</listEntry>        
+            <listEntry value="0x555500">OliveGreen</listEntry>
+            <listEntry value="0x00FF00">Green</listEntry>      
+            <listEntry value="0">BLACK</listEntry>   
+            <listEntry value="0x555555">DK_GRAY</listEntry>                        
+          </settingConfig> 
+        </setting>
+        <setting propertyKey="@Properties.time_done_color" title="TIME DONE COLOR">
+          <settingConfig  type="list">
+            <listEntry value="255">lt_blue</listEntry>
+            <listEntry value="0xaa0000">bordeaux</listEntry>
+            <listEntry value="0x550000">marron</listEntry>
+            <listEntry value="170">violet</listEntry>        
+            <listEntry value="0xFF0000">red</listEntry>
+            <listEntry value="0x00FFFF">Turquoise</listEntry>
+            <listEntry value="0xFF5500">Orange</listEntry>        
+            <listEntry value="0x555500">OliveGreen</listEntry>
+            <listEntry value="0x00FF00">Green</listEntry>      
+            <listEntry value="0">BLACK</listEntry>   
+            <listEntry value="0x555555">DK_GRAY</listEntry>                        
+          </settingConfig> 
+        </setting>        
+        <setting propertyKey="@Properties.swim_goal" title="SWIM DISTANCE GOAL">
+            <settingConfig type="numeric" />
+        </setting>
+        <setting propertyKey="@Properties.bike_goal" title="BIKE DISTANCE GOAL">
+            <settingConfig type="numeric" />
+        </setting>
+        <setting propertyKey="@Properties.run_goal" title="RUN DISTANCE GOAL">
+            <settingConfig type="numeric" />
+        </setting>                
+
+    </settings>
+</resources>
