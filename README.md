@@ -1,7 +1,7 @@
-# Muslim-Watch
-Garmin watch for muslims
+# Garmin-Watch
 
-Muslim Watch is watch displaying one of God names in arabic every 3 hours. 
+
+This watch displaying one of God names in arabic every 3 hours. 
 It gives hijri date and time to next prayer. 
 I used Aladhan.com API to get prayers time each day, you need to have internet (bleutooth connexion to your phone, or wifi) to work.
 
